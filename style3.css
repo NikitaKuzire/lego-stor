@@ -1,23 +1,73 @@
-let btn = document.querySelector('.btn')
-let txt_input = document.querySelector('.povidom')
-let age_input = document.querySelector('.age-input')
-let message = document.querySelector('.message')
+.fa {
+    background-color: rgb(241, 255, 161) ;
+    color: #00507e;
+    border: 2px solid #0087d4;
+
+}
+    
+body{  
+background-color:#41ca17;
 
 
-btn.addEventListener('click', function () {
-    let age = age_input.value
-   
-        
-    if ( age <= 2025 , age > 1971
-    ) {
-        message.innerHTML = 'Заявка на прийнятті '
-     message.style.color = 'black'
-         message.style.fontSize = '20px'
-    }
-     else {
-        message.innerHTML = 'Винекла помилка :('
-        message.style.color = 'black'
-         message.style.fontSize = '20px'
-        
-    }
-})
+}
+
+header {
+    text-align: center;
+}
+
+
+.povidom {
+padding: 4px
+}
+
+.pov {
+    padding: 4px
+}
+
+.age-input{
+     padding: 5px
+}
+
+.povid {
+padding: 4px;
+margin-bottom: 10px;
+margin-top: 5px;
+
+
+
+}
+
+
+main{
+    border: 7px groove #e1ff5c ;  
+    text-align: left;  
+}
+
+.five{
+      border: 3px groove #e1ff5c ;  
+     margin-left: -200px;
+     margin-top: -4px;
+     margin-right: 200px;
+}
+
+.seven {
+      border: 3px groove #e1ff5c ;  
+      justify-content: left;  
+}
+
+.true {
+       display: inline-block;
+       margin-top: 50px;
+       margin-bottom: -50px;
+}
+h4{
+        display: inline-block; 
+ 
+}
+
+.six {
+     border: 3px groove #e1ff5c ;  
+
+         text-align: right;
+
+}
