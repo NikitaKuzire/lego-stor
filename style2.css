@@ -66,3 +66,28 @@ main{
      
         
 }
+
+
+.textov {
+      color: #8e95f7;
+      text-align: right;
+}
+
+.texto{
+      color: #39ff75;
+        
+        display: inline-block;
+        text-align: right;
+}
+
+
+.texti{
+     color: #8e95f7;
+        display: inline-block;
+        text-align: right;
+}
+
+.texty{
+      text-align: right;
+       font-size: 14px;
+}
